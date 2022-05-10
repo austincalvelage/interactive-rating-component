@@ -8,9 +8,3 @@
 
 # Ignore all Figma Files
 *.fig
-
-# Ignore files related to API keys
-.env
-
-# Ignore SASS config files
-.sass-cache
