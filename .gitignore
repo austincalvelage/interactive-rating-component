@@ -2,9 +2,9 @@
 .DS_store
 
 # Ignore Front-End Mentor Files
-./README-template.md
-./style-guide.md
-./design
+/README-template.md
+/style-guide.md
+/design
 
 # Ignore all Figma Files
 *.fig
