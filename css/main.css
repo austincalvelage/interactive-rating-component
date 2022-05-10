@@ -1,0 +1,119 @@
+:root {
+  --dark-blue: #262E38;
+  --light-grey: #969FAD;
+  --medium-grey: #7C8798;
+  --orange: #FC7614;
+  --pure-white: #FFFFFF;
+  --very-dark-blue: #131518;
+  --black-gradient: #232A34;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+#container {
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.state-container {
+  background-color: var(--black-gradient);
+  border-radius: 1rem;
+  width: 300px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#logo {
+  background-color: var(--dark-blue);
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--pure-white);
+  margin-bottom: 2rem;
+}
+
+.body {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+  color: var(--medium-grey);
+}
+
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 100%;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  color: var(--medium-grey);
+}
+
+.rating:hover  {
+  cursor: pointer;
+  background-color: var(--orange);
+  color: var(--pure-white);
+}
+
+.selected {
+  background-color: var(--light-grey);
+  color: var(--pure-white);
+}
+
+#submit-button {
+  background-color: var(--orange);
+  color: var(--pure-white);
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 2rem;
+  border: none;
+}
+
+#submit-button:hover {
+  background-color: var(--pure-white);
+  color:  var(--orange);
+}
+
+
+/* Rated State Styles */
+
+.selected-rating-text {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  background-color: var(--dark-blue);
+  color: var(--orange);
+}
+
+/* Utility Styles */
+.hidden  {
+  display: none;
+}
