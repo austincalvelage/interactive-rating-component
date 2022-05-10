@@ -1,0 +1,16 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore Front-End Mentor Files
+./README-template.md
+./style-guide.md
+./design
+
+# Ignore all Figma Files
+*.fig
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
